@@ -11,3 +11,9 @@
 
 // Media Querys
 @import "media";
+
+// Sprite
+@import "../img/sprite/*.png";
+
+// Incluindo os sprites
+@include all-sprite-sprites;
