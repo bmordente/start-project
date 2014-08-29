@@ -1,0 +1,27 @@
+Principais:
+  ☐ Favicon
+  ☐ Assinatura no Código
+
+  Crossbrowser:
+    ☐ Internet Explorer
+    ☐ Firefox
+    ☐ Chrome
+
+  Images:
+    ☐ Sprite otimizado no TinyPnh.org
+    ☐ Otimizar Jpegs
+    ☐ Alt nas Imagens
+
+  SEO:
+    ☐ Meta
+      ☐ Keywords
+      ☐ Description
+    ☐ Código Analytics
+
+  Minificar:
+   ☐ CSS
+   ☐ Javascript
+
+  Backup:
+   ☐ Arquivos
+   ☐ Banco de dados
