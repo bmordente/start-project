@@ -1,5 +1,5 @@
 <h1>Start Project</h1>
-<h4>Versão: 1.0.1</h4>
+<h4>Versão: 1.0.2</h4>
 
 <h2>Arquivos</h2>
 <pre lang="shell"><code>Configurações de Caminhos: /config.rb</code></pre>
@@ -63,11 +63,11 @@
 		1 - Entrar na raiz do projeto pelo CMD
 		3 - Pronto, comece a editar o arquivo "analytics" na pasta de desenvolvimen/p>
 		2 - Utilizar o comando "grunt" ou "grunt u"
-	<h4>Atualizar JavaScript:</h4>
+<h4>Atualizar JavaScript:</h4>
 		1 - Entrar na raiz do projeto pelo CMD
 		3 - Pronto, comece a editar os arquivos na pasta de desenvolvimento!
 		2 - Utilizar o comando "grunt" ou "grunt u"
-	<h4>Inserir uma biblioteca Js:</h4>
+<h4>Inserir uma biblioteca Js:</h4>
 		1 - Entrar na raiz do projeto pelo CMD
 		2 - Colocar o arquivo na pasta de desenvolvimento
 		3 - Editar o arquivo "Gruntfile.js"(na linha 39) colocando na tarefa "Uglino file: "main.min.js" o caminho para a nova biblioteca ser compilada junto as demais
