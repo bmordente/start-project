@@ -2,11 +2,7 @@
 * --------------------------------------------------------
 * README.MD
 * Projeto: Cliente
-<<<<<<< HEAD
 * Versão: 1.1
-=======
-* Versão: 1.0.1
->>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
 *
 * Autor: Bruno Mordente
 * Contato: bruno.alves@bhtec.com.br
@@ -87,7 +83,6 @@ Obs.: O estilo.css será gerado na pasta de produção
 		5 - Pronto, comece a editar os arquivos na pasta de desenvolvimento!
 		4 - Utilizar o comando "grunt" ou "grunt u"
 
-<<<<<<< HEAD
 	Inserir uma biblioteca Js:
 		1 - Entrar na raiz do projeto pelo CMD.
 		2 - Colocar o arquivo na pasta de desenvolvimento.
@@ -99,8 +94,6 @@ Obs.: O estilo.css será gerado na pasta de produção
 		2 - Editar o arquivo "Gruntfile.js"(na linha 39) na tarefa "Uglify, seguindo como padrão as relações já criadas, com o nome do arquivo a ser criado e de quais arquivos ele vai ser gerado.
 		3 - Utilizar o comando "grunt" ou "grunt u"
 
-=======
->>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
 
 /*///////////// Otimizar as Imagens /////////////*/ 
 	1 - Colocar as imagens na pasta de desenvolvimento

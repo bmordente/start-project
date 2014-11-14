@@ -1,9 +1,5 @@
 <h1>Start Project</h1>
-<<<<<<< HEAD
 <h4>Versão: 1.1</h4>
-=======
-<h4>Versão: 1.0.2</h4>
->>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
 
 <h2>Arquivos</h2>
 <pre lang="shell"><code>Configurações de Caminhos: /config.rb</code></pre>
@@ -64,7 +60,6 @@
 <h2>Trabalhando com JavaScript</h2>
 <h4>Atualizar Código Analytics:</h4>
 
-<<<<<<< HEAD
 		1 - Entrar na raiz do projeto pelo CMD.
 		3 - Pronto, comece a editar o arquivo "analytics" na pasta de desenvolvimento.
 		2 - Utilizar o comando "grunt" ou "grunt u".
@@ -82,21 +77,6 @@
 		1 - Entrar na raiz do projeto pelo CMD.
 		2 - Editar o arquivo "Gruntfile.js"(na linha 39) na tarefa "Uglify, seguindo como padrão as relações já criadas, com o nome do arquivo a ser criado e de quais arquivos ele vai ser gerado.
 		4 - Utilizar o comando "grunt" ou "grunt u"
-=======
-		1 - Entrar na raiz do projeto pelo CMD
-		3 - Pronto, comece a editar o arquivo "analytics" na pasta de desenvolvimen/p>
-		2 - Utilizar o comando "grunt" ou "grunt u"
-<h4>Atualizar JavaScript:</h4>
-		1 - Entrar na raiz do projeto pelo CMD
-		3 - Pronto, comece a editar os arquivos na pasta de desenvolvimento!
-		2 - Utilizar o comando "grunt" ou "grunt u"
-<h4>Inserir uma biblioteca Js:</h4>
-		1 - Entrar na raiz do projeto pelo CMD
-		2 - Colocar o arquivo na pasta de desenvolvimento
-		3 - Editar o arquivo "Gruntfile.js"(na linha 39) colocando na tarefa "Uglino file: "main.min.js" o caminho para a nova biblioteca ser compilada junto as demais
-		5 - Pronto, comece a editar os arquivos na pasta de desenvolvimento!
-		4 - Utilizar o comando "grunt" ou "grunt u"
->>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
 
 
 <h2>Otimizar as Imagens</h2>

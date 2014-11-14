@@ -19,11 +19,7 @@ javascripts_dir = "assets/js"
 # fonts_dir = "assets/webfonts"
 
 # Diretório dos sprites
-<<<<<<< HEAD
 sprite_load_path = "assets/sprite"
-=======
-sprite_load_path = "assets/img"
->>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
 
 output_style = :compressed
 environment = :production
