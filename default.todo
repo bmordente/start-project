@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Check List:
   ☐ Favicon
   ☐ Assinatura no Código
@@ -10,3 +11,32 @@ Check List:
   ☐ Meta Keywords
   ☐ Meta Description
   ☐ Código Analytics
+=======
+Principais:
+  ☐ Favicon
+  ☐ Assinatura no Código
+
+  Crossbrowser:
+    ☐ Internet Explorer
+    ☐ Firefox
+    ☐ Chrome
+
+  Images:
+    ☐ Sprite otimizado no TinyPnh.org
+    ☐ Otimizar Jpegs
+    ☐ Alt nas Imagens
+
+  SEO:
+    ☐ Meta
+      ☐ Keywords
+      ☐ Description
+    ☐ Código Analytics
+
+  Minificar:
+   ☐ CSS
+   ☐ Javascript
+
+  Backup:
+   ☐ Arquivos
+   ☐ Banco de dados
+>>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca

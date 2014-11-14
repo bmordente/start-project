@@ -105,15 +105,24 @@ module.exports = function( grunt ) {
         // Watch
         watch: {
               compass: {
+<<<<<<< HEAD
                 files: ['assets/sass/**/*.{scss,sass}', 'assets/js/*.js'],
                 tasks: ['compass', 'uglify']
+=======
+                files: ['assets/sass/**/*.{scss,sass}'],
+                tasks: ['compass']
+>>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
               }
             },
             
         browserSync: {
             default_options: {
                 bsFiles: {
+<<<<<<< HEAD
                     src: ['dist/css/*.css', '*.*', 'dist/js/*.js']
+=======
+                    src: ['dist/css/*.css', '*.*']
+>>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
                 }
             },
             options: {

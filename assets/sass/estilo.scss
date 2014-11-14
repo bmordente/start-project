@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CSS Document
 * --------------------------------------------------------
 * README.MD
@@ -12,6 +13,9 @@
 * http://www.bhtec.com.br
 * --------------------------------------------------------
 */
+=======
+/* CSS Document */
+>>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
 
 // Twitter Bootstrap
 @import "bootstrap";
@@ -26,7 +30,11 @@
 @import "media";
 
 // Sprite
+<<<<<<< HEAD
 @import "../sprite/*.png";
+=======
+@import "../img/sprite/*.png";
+>>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
 
 // Incluindo os sprites
 @include all-sprite-sprites;

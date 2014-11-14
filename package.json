@@ -1,7 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "Start-Project",
   "version": "1.1",
   "title": "Cliente",
+=======
+  "name": "Cliente",
+  "version": "1.0.0",
+  "title": "Cliente",
+  "homepage": "http://localhost/Cliente/site",
+>>>>>>> cc0de353321a8ee781a92256e3f64d0ba771c1ca
   "description": "Meu projeto utilizando grunt.",
   "author": {
     "name": "Bruno Mordente",
