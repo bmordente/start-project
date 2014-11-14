@@ -1,0 +1,103 @@
+/*
+* --------------------------------------------------------
+* README.MD
+* Projeto: Cliente
+* Versão: 1.1
+*
+* Autor: Bruno Mordente
+* Contato: bruno.alves@bhtec.com.br
+*
+* Bhtec e:house - Digital Web Services
+* http://www.bhtec.com.br
+* --------------------------------------------------------
+*/
+
+/*////////////////////// Arquivos //////////////////////*/
+Configurações de Caminhos: /config.rb
+Dependências: package.json
+Grunt Tasks: Gruntfile.js
+ToDo list: /default.todo
+
+/*/////////////// Paths Desenvolvimento ///////////////*/
+SASS: /ProjectPath/assets/sass
+Js: /ProjectPath/assets/js
+Imagens: /ProjectPath/assets/img
+
+
+/*/////////////////// Paths Produção ///////////////////*/
+CSS: /ProjectPath/dist/css
+Js: /ProjectPath/dist/js
+Imagens: /ProjectPath/dist/img
+Ico: /ProjectPath/dist/ico
+
+
+
+/*/// Instalando o Grunt e as dependências no projeto ///*/
+1 - Verificar se já está instalado na máquina o node.js, compass, grunt, etc.
+2 - Configurar arquivo 'package.json' com os dados do projeto (Obs.: Não mexer nas dependências).
+3 - Entrar na raiz do projeto pela linha de comando(CMD).
+4 - Dê o comando "npm install" no CMD.
+5 - Divirta-se!
+
+
+/*//////////////// Comandos Utilizados ////////////////*/
+"grunt c": Compass (Compilador de SASS/CSS)
+"grunt u": Uglify (Compilador de JavaScripts)
+"grunt i": Imagemin (Otimizador de Imagens)
+"grunt w": Watch (Sincronizador de Arquivos)
+"grunt b": BrowserSync (Sincronizador de Browsers)
+"grunt": BrowserSync, Compass, Uglify, Watch
+
+
+/*///////////// Trabalhando com SASS/CSS /////////////*/ 
+Atualizar SASS:
+	1 - Entrar na raiz do projeto pelo CMD
+	2 - Utilizar o comando "grunt" ou "grunt c"
+	3 - Pronto, comece a editar o arquivo SASS na pasta de desenvolvimento!
+	4 - Para finalizar com a tarefa, pressione Ctrl+C
+Inserir CSS:
+	1 - Colocar o arquivo na pasta de desenvolvimento
+	2 - Mudar extensão do arquivo para ".scss"
+	3 - Renomear o arquivo colocando "_" no inicio. Ex.: _nomeArquivo.scss
+	4 - Inserir o import no arquivo "estilo.scss". Obs.: Não é necessário utilizar underscore no início do nome, e também a extensão .scss no import. Ex.: @import "nomeArquivo";
+	5 - Entrar na raiz do projeto pelo CMD
+	6 - Utilizar o comando "grunt" ou "grunt c"
+	7 - Para finalizar com a tarefa, pressione Ctrl+C
+
+Obs.: O estilo.css será gerado na pasta de produção
+
+
+/*///////////// Trabalhando com JavaScript /////////////*/ 
+	Atualizar Código Analytics:
+		1 - Entrar na raiz do projeto pelo CMD
+		3 - Pronto, comece a editar o arquivo "analytics" na pasta de desenvolvimento!
+		2 - Utilizar o comando "grunt" ou "grunt u"
+	Atualizar JavaScript:
+		1 - Entrar na raiz do projeto pelo CMD
+		3 - Pronto, comece a editar os arquivos na pasta de desenvolvimento!
+		2 - Utilizar o comando "grunt" ou "grunt u"
+	Inserir uma biblioteca Js:
+		1 - Entrar na raiz do projeto pelo CMD
+		2 - Colocar o arquivo na pasta de desenvolvimento
+		3 - Editar o arquivo "Gruntfile.js"(na linha 39) colocando na tarefa "Uglify" no file: "main.min.js" o caminho para a nova biblioteca ser compilada junto as demais
+		5 - Pronto, comece a editar os arquivos na pasta de desenvolvimento!
+		4 - Utilizar o comando "grunt" ou "grunt u"
+
+	Inserir uma biblioteca Js:
+		1 - Entrar na raiz do projeto pelo CMD.
+		2 - Colocar o arquivo na pasta de desenvolvimento.
+		3 - Editar o arquivo "Gruntfile.js"(na linha 39) colocando na tarefa "Uglify no file: "main.min.js" o caminho para a nova biblioteca ser compilada junto as demais
+		5 - Pronto, comece a editar os arquivos na pasta de 	desenvolvimento!
+		4 - Utilizar o comando "grunt" ou "grunt u"
+	Criar outro arquivo minified:
+		1 - Entrar na raiz do projeto pelo CMD.
+		2 - Editar o arquivo "Gruntfile.js"(na linha 39) na tarefa "Uglify, seguindo como padrão as relações já criadas, com o nome do arquivo a ser criado e de quais arquivos ele vai ser gerado.
+		3 - Utilizar o comando "grunt" ou "grunt u"
+
+
+/*///////////// Otimizar as Imagens /////////////*/ 
+	1 - Colocar as imagens na pasta de desenvolvimento
+	2 - Utilize o comando "grunt i"
+	
+Obs.:As imagens serão geradas na pasta de produção
+

@@ -1,0 +1,32 @@
+/* CSS Document
+* --------------------------------------------------------
+* README.MD
+* Projeto: Cliente
+* Versão da Base: 1.1
+* Versão do Projeto: 1.0
+*
+* Autor: Bruno Mordente
+* Contato: bruno.alves@bhtec.com.br
+*
+* Bhtec e:house - Digital Web Services
+* http://www.bhtec.com.br
+* --------------------------------------------------------
+*/
+
+// Twitter Bootstrap
+@import "bootstrap";
+
+// Mixins do SASS
+@import "mixin";
+
+// Escreva nesse arquivo
+@import "main";
+
+// Media Querys
+@import "media";
+
+// Sprite
+@import "../sprite/*.png";
+
+// Incluindo os sprites
+@include all-sprite-sprites;

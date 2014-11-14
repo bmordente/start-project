@@ -1,0 +1,22 @@
+@mixin sprite($x, $y){
+	text-indent:-9999px;
+	overflow:hidden;
+	background:{
+		image:url(../img/sprite.png);
+		color:transparent;
+		repeat:no-repeat;
+		position:$x $y;
+	}
+}
+
+@mixin radius($r){
+	border-radius: $r;
+	-moz-border-radius: $r;
+	-webkit-border-radius: $r;
+}
+
+@mixin sombra($size, $color){
+	-moz-box-shadow: $size $size $size $color;
+	-webkit-box-shadow: $size $size $size $color;
+	box-shadow: $size $size $size $color;
+}
